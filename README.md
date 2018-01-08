@@ -11,6 +11,7 @@
 #### Dependencies (package.json)
 ###### Dev: Mongodb, Mongoose, Lodash, Express, Body-parser
 ###### Tst: Expect, Mocha, Nodemon, Supertest
+###### Debug: Postman (http requests), Robo 3T (Mongodb gui)
 
 ## 3. node-webserver
 ### Creating a simple Express webserver with routes and templates using Handlebars
