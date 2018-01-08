@@ -42,7 +42,7 @@ app.get('/todos/:id', (req, res) => {
   //success
     if (todo) {
       //if todo - send it back
-      res.send(JSON.stringify(todo, undefined, 2));
+      res.send({todo});
     } else {
       //if no todo - send back 404 with empty body
       res.status(404).send();
