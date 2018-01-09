@@ -20,12 +20,12 @@
 
 ## 4. notes-node
 ### Note taking application that receives input from the command line
-#### Dependencies (package.json)
+#### Dependencies
 1. Dev: Lodash, Yargs (command line parsing)
 
 ## 5. weather-app
 ### Make aync calls to Google Maps API for location and Dark Sky API for weather at that location.
-#### Dependencies (package.json)
+#### Dependencies
 1. Dev: Axios (Promise style http request library, returns Json!), Request (Simple http requests), Yargs
 2. Dark Sky: https://api.darksky.net/forecast/7b2a4ce4ec9fb55f4af448634803c7c8/${lat},${long}
 3. Google Maps: https://maps.google.com/maps/api/geocode/json?address=${inputAddr}
